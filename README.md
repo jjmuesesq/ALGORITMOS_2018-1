@@ -2,7 +2,8 @@
 Documentos, talleres, laboratorios de la asignatura Algoritmos 
 
 Laboratorio 1
-(1) (25  puntos) Publique (fork) el trabajo realizado en las Lecturas 1 a 5 de www.quantopian.com en su cuenta de Github 
+
+(1) (25 puntos) Publique (fork) el trabajo realizado en las Lecturas 1 a 5 de www.quantopian.com en su cuenta de Github 
 	Lecture 1 Introduction to Research A simple tutorial to help you get up to speed in the research environment. 
 	Lecture 2 Introduction to Python Some basic tools for working in the language. 
 	Lecture 3 Introduction to NumPy How to use NumPy for computing on data. 
