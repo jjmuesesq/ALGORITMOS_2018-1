@@ -1,0 +1,27 @@
+#include<iostream>
+#include<stdlib.h>
+
+using namespace std;
+
+int main(){
+	cout<<"-----------------------------\n";
+	cout<<"| Serie de Fibonacci en C++ |\n";
+	cout<<"-----------------------------\n";
+	cout<<"                             \n";
+	
+	int n, x=0, y=1, z=1;
+	cout<<"Digite el numero de elementos: "; 
+	cin	>> n;
+	
+	cout<<"1 ";
+	for(int i=1; i<n; i++){
+		z = x + y;
+		cout<<z<<" ";
+		x = y;
+		y = z;
+	}
+	
+	cout<<"\n";
+	system("pause");
+	return (0);
+}
