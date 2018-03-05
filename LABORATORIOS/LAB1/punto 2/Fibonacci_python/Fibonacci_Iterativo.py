@@ -1,4 +1,7 @@
 import sys
+import time
+
+start_time = time.time()
 
 #Solución Recursiva
 def fibonacci0(n):
@@ -17,8 +20,9 @@ def fibonacci1(n):
     print(arrayFibo)
 
 T=int(input())
-print(fibonacci1(T))
-
+print(fibonacci0(T))
+print("--- %s seconds ---" % (time.time() - start_time))
+#complejidad de fibonaci O(n) forma iterativa
 
 
 
